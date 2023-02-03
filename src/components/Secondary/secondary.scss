@@ -1,0 +1,28 @@
+h2 {
+    font-family: Rajdhani, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+  }
+  
+  h4 {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    background-color: rgba($color: #ffffff, $alpha: 0.2);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+  }
+  
+  .secondary-page {
+    background-color: rgba($color: #389ef1, $alpha: 0.7);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  

@@ -1,0 +1,67 @@
+.parent {
+    .container {
+      .row {
+        display: flex;
+        justify-content: space-between;
+  
+        .form-group {
+          width: 45%;
+  
+          label {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+          }
+  
+          input[type="text"] {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+          }
+  
+          button {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+          }
+  
+          i {
+            position: relative;
+            right: 0.5rem;
+            top: 0.5rem;
+            font-size: 1.5rem;
+          }
+        }
+      }
+  
+      .row {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+  
+        button[type="submit"] {
+          width: 20%;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+  
+  .popup {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    z-index: 1;
+  
+    .popup-content {
+      background-color: white;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      padding: 1rem;
+  
+      button {
+        width: 100%;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+  
