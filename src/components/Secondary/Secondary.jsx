@@ -1,36 +1,40 @@
-import React from 'react'
-import './secondary.scss'
+import React from "react";
+import "./secondary.scss";
 
 const Secondary = () => {
   return (
-    <div className="parent">
-        <div class="container secondary-page">
-  <div class="row mt-3">
-    <div class="col-6 text-center">
-      <h2>AWARD TYPE</h2>
+    <div className="parent second-page">
+      <div class="container secondary-page">
+        <h1 class="text-center">Rewards</h1>
+        <div class="d-flex mt-5">
+          <div class="col-6">
+            <h5>Award Type</h5>
+            <ul class="list-group">
+              <li class="list-group-item">Free Bet</li>
+              <li class="list-group-item">Free Bet</li>
+              <li class="list-group-item">Free Bet</li>
+              <li class="list-group-item">Free Bet</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <h5>Award Amount</h5>
+            <ul class="list-group">
+              <li class="list-group-item">$10</li>
+              <li class="list-group-item">$20</li>
+              <li class="list-group-item">$30</li>
+              <li class="list-group-item">$50</li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <a href="/">
+            <button class="btn btn-primary">Home</button>
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="col-6 text-center">
-      <h2>AWARD AMOUNT</h2>
-    </div>
-  </div>
-  <div class="row mt-3">
-    <div class="col-6 text-center">
-      <h4>Free bet</h4>
-      <h4>Free bet</h4>
-      <h4>Free bet</h4>
-    </div>
-    <div class="col-6 text-center">
-      <h4>$100</h4>
-      <h4>$50</h4>
-      <h4>$200</h4>
-    </div>
-  </div>
-</div>
+  );
+};
 
+export default Secondary;
 
-    </div>
-
-  )
-}
-
-export default Secondary
