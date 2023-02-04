@@ -1,7 +1,7 @@
 Type the following command in the terminal and press Enter:
 
 Copy code
-npm install
+``` npm install ```
 This command will download and install all the required dependencies for your app.
 
 After the installation is complete, type the following command in the terminal and press Enter:
