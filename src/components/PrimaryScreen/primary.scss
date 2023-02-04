@@ -39,7 +39,7 @@
         margin-top: 2rem;
   
         button[type="submit"] {
-          width: 20%;
+         
           padding: 1rem;
         }
       }
@@ -47,9 +47,10 @@
   }
   
   .popup {
+    width: 30%;
     position: absolute;
     right: 0;
-    top: 125%;
+    top: 25%;
     z-index: 1;
   
     .popup-content {

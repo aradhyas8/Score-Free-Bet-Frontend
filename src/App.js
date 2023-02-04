@@ -14,7 +14,6 @@ function App() {
       <Route path="/secondary" element={<Secondary />} />
       <Route path="/congrats" element={<Congrats />} />
     </Routes>
-    <Congrats />
     </>
   );
 }
